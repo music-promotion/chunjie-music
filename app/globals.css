@@ -1,39 +1,12 @@
 @import "tailwindcss";
+@import "tailwindcss";
 
-:root {
-  --background: #F8FAFC;
-  --foreground: #0F172A;
-  --color-primary: #0F172A;
-  --color-secondary: #1E3A8A;
-  --color-cta: #CA8A04;
-  --color-background: #F8FAFC;
-  --color-text: #020617;
-  
-  /* Spacing */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  --space-2xl: 3rem;
-  --space-3xl: 4rem;
-  
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
-  --shadow-xl: 0 20px 25px rgba(0,0,0,0.15);
-}
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-}
 
 /* Smooth scrolling */
 html {
